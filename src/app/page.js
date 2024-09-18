@@ -26,9 +26,11 @@ export default function Home() {
         </p> */}
 
         <h2 className="text-center main-font font-bold">Sponsored by</h2>
-        <div className="flex">
-
-        </div>
+        <div className="flex flex-wrapitems-center justify-evenly w-full">
+          <div>
+            <Image src={"sfl.svg"} width={400} height={400}/>
+          </div>
+          </div>
       </div>
     </>
   );

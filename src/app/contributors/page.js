@@ -10,9 +10,8 @@ function Contributors() {
         </h1>
         <h2 className="ml-20">Leadership Team</h2>
       </div>
-      <div className="flex flex-wrapitems-center justify-evenly">
+      <div className="flex flex-wrapitems-center justify-evenly w-full">
         <div>
-          <Image src="lj.png"/>
           <p>Lakshya Jain</p>
         </div>
         <div>
