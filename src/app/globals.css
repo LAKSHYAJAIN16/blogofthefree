@@ -12,6 +12,10 @@ body {
   font-family: var(--font-main);
 }
 
+.fancy-font {
+  font-family: var(--font-fancy);
+}
+
 .main-body {
   /* background: url("https://as1.ftcdn.net/v2/jpg/03/66/10/14/1000_F_366101427_8yazUJK82fDrLi4YtpnQO3DJ4dTygxoe.jpg") repeat-x; */
   background-color: var(--bg-yellow);

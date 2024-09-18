@@ -17,6 +17,11 @@ const mainFont = localFont({
   variable : "--font-main",
   weight: "100 900"
 });
+const fancyFont = localFont({
+  src :"./fonts/Parisienne-Regular.ttf",
+  variable : "--font-fancy",
+  weight: "400"
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -27,7 +32,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${mainFont.variable} main-body`}
+        className={`${geistSans.variable} ${geistMono.variable} ${mainFont.variable} ${fancyFont.variable} main-body`}
       >
         <Nav></Nav>
         {children}
