@@ -36,6 +36,10 @@ export default function Nav() {
         </a>
 
         <div className="float-right mr-12">
+          <div className="md:hidden -mt-1 cursor-pointer">
+            <Image src="/menu.png" width={40} height={40} />
+          </div>
+
           <div className="hidden md:block">
             <div className="text-right text-xl main-font flex mt-0 cursor-pointer">
               <a href="/articles">
@@ -47,10 +51,6 @@ export default function Nav() {
               <a href="/join">
                 <p className="text-american-blue mr-4">join</p>
               </a>
-            </div>
-
-            <div className="inline md:hidden">
-              <Image src="/menu.png" width={400} height={400} />
             </div>
           </div>
         </div>

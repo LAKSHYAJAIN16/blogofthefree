@@ -13,10 +13,17 @@ export default async function Articles({ params }) {
 
   return (
     <div>
-      <h1 className="main-font font-semibold text-3xl text-center text-american-red mt-2">
-        The Blog
+      <h1 className="main-font font-bold text-3xl text-center text-black mt-2">
+        04:58
       </h1>
-      <p>{JSON.stringify(articles)}</p>
+      <div>
+        <div className="bg-white rounded-2xl pl-4 pr-4 h-6 w-32 text-center">
+          <p>🇺🇸 Election 2024</p>
+        </div>
+        </div>
+      <p>
+        {JSON.stringify(articles)}
+      </p>
     </div>
   );
 }
