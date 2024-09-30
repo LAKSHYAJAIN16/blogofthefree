@@ -39,6 +39,14 @@ export default function Home() {
         {/* <div className="flex justify-evenly w-full mt-7 animate-bounce">
           <Image src={"/arrow-down.png"} width={40} height={40} />
         </div> */}
+
+        <h2 className="text-center mt-10 main-font text-3xl">New Articles</h2>
+        <div className="bg-white">
+
+        </div>
+        <div className="bg-white">
+
+        </div>
       </div>
     </>
   );

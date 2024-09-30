@@ -3,7 +3,7 @@ import React from "react";
 
 function Contributors() {
   return (
-    <div>
+    <div className="main-font">
       <div className="mt-5">
         <h1 className="text-center font-bold text-4xl main-font">
           Contributors

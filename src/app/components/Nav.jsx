@@ -22,15 +22,19 @@ export default function Nav() {
   function openMenu() {
     if(displayNavUI === false){
       setDisplayNavUI(true);
+      navUI.current?.classList.remove("hidden");
       navUI.current?.classList.remove("opacity-0");
       navUI.current?.classList.add("opacity-90");
+      navUI.current?.classList.add("block");
       navUI.current?.classList.add("animation-fade");
     }
     else{
       setDisplayNavUI(false);
       navUI.current?.classList.add("opacity-0");
+      navUI.current?.classList.add("hidden");
       navUI.current?.classList.remove("opacity-90");
       navUI.current?.classList.remove("animation-fade");
+      navUI.current?.classList.remove("block");
     }
   }
 
@@ -44,7 +48,7 @@ export default function Nav() {
     <>
       <div
         ref={navUI}
-        className="opacity-0 bg-slate-100 fixed mt-10 ml-0 w-full h-full z-10 transition-all"
+        className="hidden opacity-0 bg-slate-100 fixed mt-10 ml-0 w-full h-full z-10 transition-all"
       >
         <div className="z-30 cursor-pointer">
           <h1 className="text-center font-bold text-xl text-red-900 z-[30] opacity-100 mb-10">
