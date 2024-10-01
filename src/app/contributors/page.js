@@ -8,7 +8,7 @@ function Contributors() {
         <h1 className="text-center font-bold text-4xl main-font">
           Contributors
         </h1>
-        <h2 className="text-center mt-12">Leadership Team</h2>
+        <h2 className="text-center mt-12 text-xl">Leadership Team</h2>
       </div>
       <div className="flex flex-wrapitems-center justify-evenly w-full mt-7">
         <div>
