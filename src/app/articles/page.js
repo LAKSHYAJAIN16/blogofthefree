@@ -56,7 +56,7 @@ export default async function Articles({ params }) {
             width={30}
             className="rounded-sm pr-1"
           />
-          News
+          Exculsives
         </div>
       </div>
       <p>{JSON.stringify(articles)}</p>
